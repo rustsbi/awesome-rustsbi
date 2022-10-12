@@ -2,18 +2,39 @@
 
 > A curated list of awesome things related to rustsbi
 
-# Resources
+# RustSBI libraries
 
-[rustsbi](https://github.com/rustsbi/rustsbi) - RISC-V Supervisor Binary Interface (RISC-V SBI) implementation in Rust
+- [rustsbi](https://github.com/rustsbi/rustsbi) - RISC-V Supervisor Binary Interface (RISC-V SBI) implementation in Rust
+- [sbi-testing](https://github.com/rustsbi/sbi-testing) - RISC-V SBI environment test suite
+- [sbi-rt](https://github.com/rustsbi/sbi-rt) - Simple RISC-V SBI runtime library; designated for supervisor use
+- [sbi-spec](https://github.com/rustsbi/sbi-spec) - Definitions and constants in RISC-V Supervisor Binary Interface (RISC-V SBI)
 
-[rustsbi-hifive-unmatched](https://github.com/rustsbi/rustsbi-hifive-unmatched) - RustSBI support on SiFive FU740 board; FU740 is a five-core heterogeneous processor with four SiFive U74 cores, and one SiFive S7 core
+# Platform support
 
-[rustsbi-qemu](https://github.com/rustsbi/rustsbi-qemu) - QEMU platform SBI support implementation
+- [rustsbi-k510](https://github.com/Gstalker/rustsbi-k510) - RISC-V SBI firmware support for Kendryte K510 platform
+- [rustsbi-d1](https://github.com/rustsbi/rustsbi-d1) - RustSBI bootloader firmware and debug suite for Allwinner D1 SoC boards, including Nezha, Lichee and more 
+- [rustsbi-hifive-unmatched](https://github.com/rustsbi/rustsbi-hifive-unmatched) - RustSBI support on SiFive FU740 board; FU740 is a five-core heterogeneous processor with four SiFive U74 cores, and one SiFive S7 core
+- [rustsbi-qemu](https://github.com/rustsbi/rustsbi-qemu) - QEMU platform SBI support implementation
+- [rustsbi-k210](https://github.com/rustsbi/rustsbi-k210) - Kendryte K210 SBI support using RustSBI, provides privileged spec 1.12 environment by emulating it using 1.9.1
 
-[rustsbi-k210](https://github.com/rustsbi/rustsbi-k210) - Kendryte K210 SBI support using RustSBI, provides privileged spec 1.12 environment by emulating it using 1.9.1
+# Projects using rustsbi
 
-[rustsbi-nezha](https://github.com/ez4yunfeng2/rustsbi-nezha)
+# Documents
 
-[rustsbi-D1](https://github.com/wangtao-creator/rustsbi-D1)
+- [slides](https://github.com/rustsbi/slides) - All public report slides and articles related to RustSBI
 
-# Projects Using rustsbi
+# Bare metal support crates
+
+- [hpm6750-pac](https://github.com/rustsbi/hpm6750-pac) - Embedded Rust Peripheral Access Crate for HPMicro HPM6750 chip series
+- [xuantie](https://github.com/rustsbi/xuantie) - Low level access to T-Head Xuantie RISC-V processors
+
+# Useful Rust crates for implementations
+
+- [dtb-walker](https://github.com/YdrMaster/dtb-walker) - Iterator device tree blob using cursor semantics
+- [os-xtask-utils](https://github.com/YdrMaster/os-xtask-utils) - Program executation for xtask in os or bootloader project 
+- [serde-device-tree](https://github.com/rustsbi/serde-device-tree) - Serialize & deserialize device tree binary using serde
+
+# Prototypes
+
+- [rustsbi-nezha](https://github.com/ez4yunfeng2/rustsbi-nezha) by @ez4yunfeng2
+- [rustsbi-D1](https://github.com/wangtao-creator/rustsbi-D1) by @wangtao-creator
