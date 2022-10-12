@@ -4,10 +4,10 @@
 
 # RustSBI libraries
 
-- [rustsbi](https://github.com/rustsbi/rustsbi) - RISC-V Supervisor Binary Interface (RISC-V SBI) implementation in Rust
-- [sbi-testing](https://github.com/rustsbi/sbi-testing) - RISC-V SBI environment test suite
-- [sbi-rt](https://github.com/rustsbi/sbi-rt) - Simple RISC-V SBI runtime library; designated for supervisor use
-- [sbi-spec](https://github.com/rustsbi/sbi-spec) - Definitions and constants in RISC-V Supervisor Binary Interface (RISC-V SBI)
+- [rustsbi](https://github.com/rustsbi/rustsbi) - RISC-V Supervisor Binary Interface (RISC-V SBI) implementation in Rust [![crates.io](https://img.shields.io/crates/v/rustsbi.svg)](https://crates.io/crates/rustsbi)
+- [sbi-testing](https://github.com/rustsbi/sbi-testing) - RISC-V SBI environment test suite [![crates.io](https://img.shields.io/crates/v/sbi-testing.svg)](https://crates.io/crates/sbi-testing)
+- [sbi-rt](https://github.com/rustsbi/sbi-rt) - Simple RISC-V SBI runtime library; designated for supervisor use [![crates.io](https://img.shields.io/crates/v/sbi-rt.svg)](https://crates.io/crates/sbi-rt)
+- [sbi-spec](https://github.com/rustsbi/sbi-spec) - Definitions and constants in RISC-V Supervisor Binary Interface (RISC-V SBI) [![crates.io](https://img.shields.io/crates/v/sbi-spec.svg)](https://crates.io/crates/sbi-spec)
 
 # Platform support
 
@@ -26,13 +26,13 @@
 # Bare metal support crates
 
 - [hpm6750-pac](https://github.com/rustsbi/hpm6750-pac) - Embedded Rust Peripheral Access Crate for HPMicro HPM6750 chip series
-- [xuantie](https://github.com/rustsbi/xuantie) - Low level access to T-Head Xuantie RISC-V processors
+- [xuantie](https://github.com/rustsbi/xuantie) - Low level access to T-Head Xuantie RISC-V processors [![crates.io](https://img.shields.io/crates/v/xuantie.svg)](https://crates.io/crates/xuantie)
 
 # Useful Rust crates for implementations
 
-- [dtb-walker](https://github.com/YdrMaster/dtb-walker) - Iterator device tree blob using cursor semantics
-- [os-xtask-utils](https://github.com/YdrMaster/os-xtask-utils) - Program executation for xtask in os or bootloader project 
-- [serde-device-tree](https://github.com/rustsbi/serde-device-tree) - Serialize & deserialize device tree binary using serde
+- [dtb-walker](https://github.com/YdrMaster/dtb-walker) - Iterator device tree blob using cursor semantics [![crates.io](https://img.shields.io/crates/v/dtb-walker.svg)](https://crates.io/crates/dtb-walker)
+- [os-xtask-utils](https://github.com/YdrMaster/os-xtask-utils) - Program executation for xtask in os or bootloader project [![crates.io](https://img.shields.io/crates/v/os-xtask-utils.svg)](https://crates.io/crates/os-xtask-utils)
+- [serde-device-tree](https://github.com/rustsbi/serde-device-tree) - Serialize & deserialize device tree binary using serde [![crates.io](https://img.shields.io/crates/v/serde-device-tree.svg)](https://crates.io/crates/serde-device-tree)
 
 # Prototypes
 
