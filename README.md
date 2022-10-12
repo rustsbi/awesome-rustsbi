@@ -17,7 +17,11 @@
 - [rustsbi-qemu](https://github.com/rustsbi/rustsbi-qemu) - QEMU platform SBI support implementation
 - [rustsbi-k210](https://github.com/rustsbi/rustsbi-k210) - Kendryte K210 SBI support using RustSBI, provides privileged spec 1.12 environment by emulating it using 1.9.1
 
-# Projects using rustsbi
+# Kernels and firmwares
+
+- [zCore](https://github.com/rcore-os/zCore) - Reimplement Zircon microkernel in Rust
+- [rCore-Tutorial-v3](https://github.com/rcore-os/rCore-Tutorial-v3) - Let's write an OS which can run on RISC-V in Rust from scratch!
+- [oreboot](https://github.com/oreboot/oreboot) - oreboot is a fork of coreboot, with C removed, written in Rust
 
 # Documents
 
