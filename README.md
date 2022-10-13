@@ -22,6 +22,7 @@
 - [zCore](https://github.com/rcore-os/zCore) - Reimplement Zircon microkernel in Rust
 - [rCore-Tutorial-v3](https://github.com/rcore-os/rCore-Tutorial-v3) - Let's write an OS which can run on RISC-V in Rust from scratch!
 - [oreboot](https://github.com/oreboot/oreboot) - oreboot is a fork of coreboot, with C removed, written in Rust
+- [UltraOS](https://github.com/xiyurain/UltraOS) - UltraOSオルトラオレジ - A Rust based Multicore OS developed by UltraTeam, HITsz
 
 # Documents
 
