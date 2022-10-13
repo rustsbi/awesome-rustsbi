@@ -26,6 +26,7 @@
 # Documents
 
 - [slides](https://github.com/rustsbi/slides) - All public report slides and articles related to RustSBI
+- [rustsbi-hifive-unmatched/wiki](https://github.com/rustsbi/rustsbi-hifive-unmatched/wiki) - RustSBI HiFive Unmatched project documents
 
 # Bare metal support crates
 
