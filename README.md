@@ -33,6 +33,7 @@
 
 - [hpm6750-pac](https://github.com/rustsbi/hpm6750-pac) - Embedded Rust Peripheral Access Crate for HPMicro HPM6750 chip series
 - [xuantie](https://github.com/rustsbi/xuantie) - Low level access to T-Head Xuantie RISC-V processors [![crates.io](https://img.shields.io/crates/v/xuantie.svg)](https://crates.io/crates/xuantie)
+- [sifive-core](https://github.com/rustsbi/sifive-core) - Low level access to SiFive RISC-V processor cores [![crates.io](https://img.shields.io/crates/v/sifive-core.svg)](https://crates.io/crates/sifive-core)
 
 # Useful Rust crates for implementations
 
